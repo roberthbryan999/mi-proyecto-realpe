@@ -1,0 +1,393 @@
+#parrafo1
+{
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+}
+#parrafo2
+{
+    color: green;
+    font-weight: light;
+    text-align: center;
+}
+#parrafo3
+{
+    color: blue;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.ClaseParrafo
+{
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecera
+{
+    background-color: white;
+    color: #539cdc;
+    padding: 10px; /*margen-interno*/
+}
+
+#menu{
+    background-color: #337ab7;
+    padding: 10px;
+    margin-bottom: 5px; /*margen abajo*/
+}
+
+a.item_menu{
+    color: white;
+    text-decoration: none; /*elimina el subrayado*/
+    padding-top: 10px; /*arriba*/
+    padding-bottom: 10px;/*abajo*/
+    padding-left: 5px;/*izquierda*/
+    padding-right: 5px;/*derecha*/
+}
+
+a.item_menu:hover{
+    background-color: #539cdc;
+}
+#footer{
+    background-color: #337AB7;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 10px 5px 5px gray;
+    font-size: small;
+}
+
+
+#div1{
+    background-color: burlywood;
+    margin: 20px;
+}
+
+
+#div2{
+    background-color: burlywood;
+    margin-left: 20px;
+}
+
+#div3{
+    background-color: burlywood;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#div4{
+    background-color: burlywood;
+    margin: 40px;
+    padding: 20px;
+}
+
+
+#div5{
+    background-color: burlywood;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 20px;
+}
+
+#footer{
+    background-color: #337AB7;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 10px 5px 5px gray;
+    font-size: small;
+}
+
+body{
+    margin: 0px;
+}
+
+/* DROPDOWN ------------------ */
+/* 1 Contenedor del dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* 2 Menú desplegable (oculto por defecto) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+/* 3 Opciones dentro del dropdown */
+.dropdown-content a {
+  color: #333;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+/* 4 Efecto al pasar el ratón sobre una opción */
+.dropdown-content a:hover {
+  background-color: #337AB7;
+  color: white;
+}
+
+/* 5 Mostrar el menú al pasar el mouse sobre el contenedor */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* 6 Cambiar color del botón al pasar el mouse */
+.dropdown:hover .dropbtn {
+  background-color: #2980b9;
+}
+/* FIN DE DROPDOWN ----------------*/
+
+
+#img1 {
+    width: 250px;
+    border: 5px solid red;
+}
+
+#img2 {
+     width: 250px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+#img3 {
+    width: 250px;
+    opacity: 0.5;  /*De 0 a 1 = 0 muy opaco, 1= sin opacidad*/
+}
+
+#img3:hover {
+    width: 250px;
+    opacity: 1;  /*De 0 a 1 = 0 muy opaco, 1= sin opacidad*/
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.div_izquierda {
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    background-color:greenyellow;
+}
+
+.div_derecha {
+    width: 50%;
+     height: 400px;
+       margin-right: 10px;
+    background-color:aqua;
+}
+
+#deg1{
+    height: 200px;
+    background: linear-gradient(blue, skyblue);
+}
+
+#deg2{
+    height: 200px;
+    background: linear-gradient(blue, white, green);
+}
+
+#deg3{
+    height: 200px;
+    background: linear-gradient(to right,green ,yellow, red);
+}
+
+@font-face {
+    font-family: 'Instagram';
+    src: url('instagram.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+#deg4{
+    font-family: Instagram;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    height: 400px;
+    background-image: linear-gradient(to right, #523FCF, #AF289D, #E8223C, #F6BA50);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+#fondo_Color{
+    background-color: rgb(172 ,241 , 246);
+    height: 1500px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+#fondo_imagen{
+    background-color: url("imagen.jpg");
+    height: 1500px;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#fondo_fijo{
+    background-color: url("imagen.jpg");
+    height: 1500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -1;
+    position: absolute;
+
+    background-attachment: fixed;
+    margin:0;
+    padding: 0;
+}
+
+/* Transición */
+#transicion {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 1s;
+}
+
+#transicion:hover {
+    width: 200px;
+}
+
+/* Animación 1 (Cambio de color) */
+#animacion {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: ejemplo1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ejemplo1 {
+    from { background-color: blue; }
+    to { background-color: red; }
+}
+
+/* Animación 2 (Movimiento en cuadrado) */
+#animacion2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: ejemplo2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes ejemplo2 {
+    0%   { left: 0px; top: 0px; }
+    25%  { left: 200px; top: 0px; }
+    50%  { left: 200px; top: 200px; }
+    75%  { left: 0px; top: 200px; }
+    100% { left: 0px; top: 0px; }
+}
+/* --- Estilos para la tabla y formulario --- */
+
+.contenedor-formulario {
+    margin: 30px 0 30px 20px; /* Alineado a la izquierda con un pequeño margen */
+    width: auto;
+    max-width: 500px;
+}
+
+.tabla-formulario {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.tabla-formulario .col1 {
+    text-align: right;
+    padding-right: 15px;
+    font-size: 18px;
+    width: 25%;
+}
+
+.tabla-formulario .col2 {
+    width: 75%;
+}
+
+/* Reglas especificadas en la práctica: Arial, 14px, Negrita, Azul, Padding 5px, Margin 5px */
+.tabla-formulario .input-estilo {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0000d8;
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #767676;
+    border-radius: 2px;
+}
+
+.tabla-formulario .input-estilo:focus {
+    border: 2px solid #000000;
+    outline: none;
+}
+
+/* Reglas de Botones: Padding 5px, Border-radius 5px, Hover aclarado */
+.btn-container {
+    padding-top: 5px;
+}
+
+.btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-enviar {
+    background-color: #008000;
+}
+
+.btn-enviar:hover {
+    background-color: #28a745;
+}
+
+.btn-borrar {
+    background-color: #ff0000;
+}
+
+.btn-borrar:hover {
+    background-color: #ff5555;
+}
+

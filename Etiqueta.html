@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="https://imgs.search.brave.com/OkWRvsjLh7lnIb4MU3lO6XOrpJXkpZsV5ZL5lYS2bY8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzExNjkzNTYucG5n" type="image/x-icon">    
+
+    <style>
+        p{
+            background-color: aquamarine;
+        }
+        /* Se remueve la regla global 'div' para que no pinte el menú de color chocolate */
+        #bloque-chocolate{
+            background-color: chocolate;
+        }
+        #diferente{
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="cabecera">
+        <h1>Practicas CSS</h1>
+    </div>
+
+    <div id="menu">
+            <a href="index.html" class="item_menu"> Inicio</a>
+            <a href="Atributo.html" class="item_menu"> Atributos</a>
+            <a href="Etiqueta.html" class="item_menu"> Etiquetas</a>
+            <a href="textos.html" class="item_menu"> Textos</a>
+            <a href="margenes.html" class="item_menu"> Márgenes</a>
+            <a href="imagenes.html" class="item_menu"> Imágenes</a>
+            <a href="tabla.html" class="item_menu"> tabla</a>
+            <a href="flex.html" class="item_menu"> flex</a>
+            <a href="degradados.html" class="item_menu"> Degradados</a>
+            <a href="Animaciones.html" class="item_menu"> Animaciones</a>
+           
+            <a href="Selectores.html" class="item_menu"> Selectores</a>
+
+
+            <div class="dropdown">
+                <a class="item_menu">Fondos</a>
+                <div class="dropdown-content">
+                    <a href="fondoColor.html">Fondo Color</a>
+                    <a href="fondoImagen.html">Fondo Imagen</a>
+                    <a href="fondoFijo.html">Fondo Fijo</a>
+                </div>
+            </div>
+    </div>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum laboriosam, veritatis aut labore officia eos corporis, magnam dolor modi perferendis beatae non dicta, saepe quos doloremque nobis veniam voluptate amet!</p>
+    <p>SADADSADAS</p>
+    <p>SDADSADSADD</p>
+
+    <!-- Le asignamos un ID para aplicar el color chocolate solo a este elemento y no a los demás divs -->
+    <div id="bloque-chocolate">asdfsdafsdafa</div>
+    <div id="diferente">miopmkfff</div>
+
+     <div id="footer">
+        Roberth Realpe <br>
+        UTELVT <br>
+        2026
+    </div>
+</body>
+</html>

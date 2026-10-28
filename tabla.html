@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Tabla</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2btRhucrIXwa3_kevrrjoqqgIvjNcWyO7c36djCUd_A&s=10" type="image/x-icon">
+</head>
+<body>
+    <div id="cabecera">
+        <h1>Practicas CSS</h1>
+    </div>
+
+    <div id="menu">
+        <a href="index.html" class="item_menu">Index</a>
+        <a href="Atributo.html" class="item_menu">Atributo</a>
+        <a href="Etiqueta.html" class="item_menu">Etiqueta</a>
+        <a href="Textos.html" class="item_menu">Textos</a>
+        <a href="margenes.html" class="item_menu">Márgenes</a>
+        <a href="tabla.html" class="item_menu">tabla</a>
+        <a href="Imagenes.html" class="item_menu">Imágenes</a>
+        <a href="flex.html" class="item_menu">Flexbox</a>
+        <a href="Degradados.html" class="item_menu">Degradados</a>
+        <a href="Animaciones.html" class="item_menu">Animaciones</a>
+        <a href="Selectores.html" class="item_menu">Selectores</a>
+        
+   
+        <div class="dropdown">
+            <a class="item_menu">Fondos</a>
+            <div class="dropdown-content">
+            <a href="fondoColor.html">Fondo Color</a>
+            <a href="fondoImagen.html">Fondo Imagen</a>
+            <a href="fondoFijo.html">Fondo Fijo</a>
+        </div>
+    </div>
+    </div>
+
+    <!-- FORMULARIO EN TABLA -->
+    <div class="contenedor-formulario">
+        <form action="#" method="post">
+            <table class="tabla-formulario">
+                <tr>
+                    <td class="col1"><label for="nombre">Nombre</label></td>
+                    <td class="col2">
+                        <input type="text" id="nombre" name="nombre" value="" class="input-estilo">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1"><label for="edad">Edad</label></td>
+                    <td class="col2">
+                        <input type="text" id="edad" name="edad" class="input-estilo">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1"><label for="correo">Correo</label></td>
+                    <td class="col2">
+                        <input type="email" id="correo" name="correo" class="input-estilo">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1"></td>
+                    <td class="col2 btn-container">
+                        <button type="submit" class="btn btn-enviar">Enviar</button>
+                        <button type="reset" class="btn btn-borrar">Borrar</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div id="footer">
+        Roberth Realpe <br>
+        UTLVT <br>
+        2026
+    </div>
+</body>
+</html>
